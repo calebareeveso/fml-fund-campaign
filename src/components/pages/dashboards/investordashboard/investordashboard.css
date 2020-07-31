@@ -1,0 +1,222 @@
+
+.investor-dashboard{
+  margin: 0;
+  margin-top: 0 !important;
+  padding: 0;
+  padding-bottom: 35px !important;
+  background: #E5E5E5;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.investorrequest-loan{
+  height: 52px;
+  background: #FB3F5C;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 0 49px;
+  border: none;
+}
+
+.investortitle{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px !important;
+  color: #04172A;
+}
+
+.investortitle span{
+  color: #FB3F5C;
+}
+
+/* CIRCLE PROGRESS BAR */
+.investoroverview__progress{
+  background-color: #FFFFFF;
+  border-radius: 10.9946px; 
+}
+
+.investoroverview__progress-bar{
+  max-width: 191.3px;
+  max-height: 191.3px;
+  position: relative;
+}
+
+.investoroverview__progress-info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.investoroverview__progress-info h5{
+  font-weight: 500;
+  font-size: 47.8261px;
+  line-height: 62px;
+  color: #04172A
+}
+
+.investorcompaign-card__progress-info span{
+  font-size: 21.7391px;
+  line-height: 28px;
+  color: #04172A;
+  text-align: center;
+}
+
+/* END CIRCLE PROGRESS BARR */
+
+/* compaign secetion */
+.investorcompaign{
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 2rem auto;
+}
+.investorcompaign-card__progress-info{
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+.investorcompaign__title{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #04172A;
+}
+.investorcompaign__view-more{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FB3F5C;
+  cursor: pointer;
+}
+
+/* Compaign CARD */
+.investorcompaign-card{
+  background: rgba(245, 246, 250, 0.5);
+  border-radius: 10.9946px;
+  padding: 17px 14px 14px 20px;
+}
+.investorcompaign-card__name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.investorcompaign-card__job{
+  font-size: 16px;
+  line-height: 21px;
+  color: #04172A;
+}
+.investorcompaign-card__body-desc{
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.investorcompaign-card__body-desc span{
+  color: #28f328;
+}
+
+.lightgreen{
+  color: #28f328;
+}
+
+.investorcompaign-card__btn{
+  height: 37px;
+  background: #04172A;
+  box-shadow: 0px 4px 4px rgba(4, 23, 42, 0.05);
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 9px;
+}
+
+/* ****** */
+/* Table */
+.investordashboard-table{
+  background-color: white;
+  padding: 25px ;
+  border-radius: 10px;
+
+}
+.investorthead{
+  height: 69px;
+  background: #FB3F5C;
+  color: white;
+  text-align: center;
+ 
+}
+.investorthead th{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+}
+.investortable__no-history-title{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 51px;
+  color: #04172A;
+  margin-top:16px;
+  margin-bottom: 24px;
+
+}
+
+/* Overview CARD */
+.investoroverview__title{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #04172A;
+}
+.investoroverview-card{
+  background-color:white ;
+  height: 106px;
+  background: #FFFFFF;
+  border-radius: 10.9946px;
+}   
+
+@media(max-width:650px){
+  .investoroverview-card{
+    background-color:white ;
+    height: 106px;
+    background: #FFFFFF;
+    border-radius: 10.9946px;
+    width:100%;
+    margin-left:17%;
+    
+  }  
+}
+.investoroverview-card__img{
+  background-color: pink;
+  border-radius: 50%;
+  width: 50px;
+  height:50px;
+}
+.investoroverview-card__img img{
+  height: initial;
+  width: initial;
+  transform: translate(50%,50%);
+}
+.investoroverview-card__title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #04172A;
+  }
+.investoroverview-card__desc{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+

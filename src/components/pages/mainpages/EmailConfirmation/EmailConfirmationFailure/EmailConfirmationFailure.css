@@ -1,0 +1,42 @@
+.email-success {
+  width: 340px;
+  margin: 0 auto;
+}
+
+.email-succes-card {
+  /* Add shadows to create the "card" effect */
+  /* padding: 20px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.email-succes-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.email-success-container {
+  margin-top: 20px;
+  padding: 4px 16px;
+}
+
+.email-success-container p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.email-success-container h5 {
+  margin-bottom: 0rem;
+}
+
+.email-success-btn {
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  font-size: 15px;
+  margin: 0rem auto 1.5rem;
+  background-color: #fb3f5c;
+  border: none;
+  border-radius: 3px;
+}

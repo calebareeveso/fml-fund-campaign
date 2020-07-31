@@ -1,0 +1,15 @@
+version: "3"
+services:
+  react_fe:
+    container_name: fml-fe
+    restart: unless-stopped
+    build: .
+    ports:
+      - "5000:5000"
+    # env_file: .env
+    volumes:
+      - .:/home/node/app
+      - node_modules:/home/node/app/node_modules
+
+volumes:
+  node_modules:  

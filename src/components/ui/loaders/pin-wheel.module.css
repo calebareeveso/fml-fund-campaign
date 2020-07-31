@@ -1,0 +1,24 @@
+.PinWheel {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    margin-left: 8px;
+}
+
+.PinWheel::after {
+    content: "";
+    display: inline-block;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    border: 4px solid hsla(0,0%,100%,.5);
+    border-left-color: #fff;
+    border-radius: 50%;
+    -webkit-animation: rotate 1s linear infinite;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

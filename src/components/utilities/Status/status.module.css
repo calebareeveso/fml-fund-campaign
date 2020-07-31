@@ -1,0 +1,18 @@
+/* status */
+.status_qobi{width:100%;min-height:100vh;position:fixed;top:0;left:0;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center;z-index:500000;}
+.main_container_qobi{width:90%;margin:0 auto;}
+.status_container_qobi{width:100%;background:#fff;border-radius:5px;padding:70px 0;text-align:center;}
+.status_container_qobi h1{margin:0;color:#FB405C;font-style: normal;font-weight: bold;font-size: 48px;line-height: 62px;letter-spacing: 0.02em;margin-bottom:35px;}
+.status_container_qobi button{width:max-content;height:50px;padding:0 25px;border:none;background:#FB405C;font-size:16px;font-weight:600;color:#fff;outline:none;margin-bottom:20px;}
+.status_container_qobi p{color:#FB405C;font-style: normal;font-weight: bold;font-size: 14px;}
+@media only screen and (min-width:768px){
+.main_container_qobi{width:90%;margin:0 auto;}
+}
+@media only screen and (min-width:1200px){
+.main_container_qobi{width:1180px;}
+.status_container_qobi{width:580px;margin:0 auto;}
+}
+
+
+
+/* status ends */

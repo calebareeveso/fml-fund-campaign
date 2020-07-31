@@ -1,0 +1,94 @@
+.email-confirmation {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.email-confirmation-header img {
+  width: 100px;
+  margin-top: 2rem;
+}
+
+.email-confirmation-card {
+  /* Add shadows to create the "card" effect */
+  /* padding: 20px; */
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.email-confirmation-card:hover {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.email-confirmation-container {
+  margin-top: 20px;
+}
+
+.email-confirmation-container p {
+  font-size: 12px;
+  margin-top: 2rem;
+}
+
+.email-confirmation-p1 {
+  font-weight: 500;
+  color: #000;
+}
+
+.email-confirmation-p2 {
+  color: rgb(182, 182, 182);
+}
+
+.email-confirmation-container h5 {
+  margin-bottom: 0rem;
+  margin-top: 4rem;
+}
+
+.email-confirmation-header {
+  background-color: #fb3f5c;
+  height: 180px;
+}
+
+.email-confirmation-btn {
+  width: 200px;
+  height: 40px;
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 15px;
+  margin: 0rem auto;
+  background-color: #fb3f5c;
+  border: none;
+  border-radius: 3px;
+}
+
+/* media query */
+/* small screen and above 375  */
+@media (min-width: 345px) {
+  .email-confirmation {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .email-confirmation-container h5 {
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+  }
+
+  .email-confirmation-container p {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .email-confirmation {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .email-confirmation-container p {
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,128 @@
+
+.default-dashboard{
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+   
+}
+*{
+    box-sizing: border-box;
+}
+.request-loan{
+    height: 52px;
+    background: #FB3F5C;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 49px;
+    border: none;
+}
+.title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px !important;
+    color: #04172A;
+}
+.title span{
+    color: #FB3F5C;
+}
+
+/* CIRCLE PROGRESS BAR */
+svg #bar {
+    stroke: #FB3F5C;
+    stroke-width: 1rem;
+    transition: stroke-dashoffset 1.5s ;
+    stroke-linecap: round;
+    transform: translateY(100%) rotate(-90deg)
+    
+}
+.overview__progress{
+    background-color: #FFFFFF;
+    border-radius: 10.9946px;
+   
+    
+}
+.overview__progress-bar{
+    max-width: 191.3px;
+    max-height: 191.3px;
+    position: relative;
+}
+.overview__progress-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.overview__progress-info h5{
+    font-weight: 500;
+    font-size: 47.8261px;
+    line-height: 62px;
+    color: #04172A
+}
+.compaign-card__progress-info span{
+    font-size: 21.7391px;
+    line-height: 28px;
+    color: #04172A;
+    text-align: center;
+ 
+}
+
+/* END CIRCLE PROGRESS BARR */
+
+/* compaign secetion */
+.compaign{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 2rem auto;
+}
+.compaign-card__progress-info{
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+.compaign__title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #04172A;
+}
+.compaign__view-more{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FB3F5C;
+    cursor: pointer;
+}
+
+/* ****** */
+/* Table */
+.dashboard-table{
+    background-color: white;
+    padding: 25px ;
+    border-radius: 10px;
+
+}
+thead{
+    height: 69px;
+    background: #06305B;
+    color: white;
+    text-align: center;
+   
+}
+thead th{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.table__no-history-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 51px;
+    color: #04172A;
+    margin-top:16px;
+    margin-bottom: 24px;
+
+}

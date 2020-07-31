@@ -1,0 +1,44 @@
+.box_shadow{
+    box-shadow: 2px 8px 20px rgba(181, 181, 181, 0.2);
+}
+
+.payment_card {
+    animation: payment-card 1s;
+}
+
+@keyframes payment-card {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.form_control {
+    border: 1px solid lavender;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.form_control::-webkit-outer-spin-button,
+.form_control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form_control:focus {
+    border: 1px solid rgb(107, 107, 231);
+    outline: none;
+}
+
+.number_field {
+    letter-spacing: 12px;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 576px) {
+    .number_field {
+        letter-spacing: 20px;
+    }
+}

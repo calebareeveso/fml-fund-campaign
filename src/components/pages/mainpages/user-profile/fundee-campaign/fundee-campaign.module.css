@@ -1,0 +1,53 @@
+@media (max-width: 700px){
+    .RecommendBox img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .RecommendBox {
+        width: 100%;
+        height: 275px;
+        padding: 0 45px;
+    }
+
+    .RecommendBox p {
+        font-size: 16px;
+    }
+
+    .RecommendBox h3 {
+        font-size: 20px;;
+    }
+}
+
+.RecommendBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100;
+    height: 300px;
+    border: 1.5px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.RecommendBox img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 2em 0 1em 0;
+}
+
+.RecommendBox h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #04172A;
+}
+
+.RecommendBox p {
+    font-size: 13px;
+    margin-top: 18px;
+    color: #333333;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+/* Overview CARD */
+.overview__title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #04172A;
+}
+.overview-card{
+    background-color:white ;
+    height: 106px;
+    background: #FFFFFF;
+    border-radius: 10.9946px;
+}   
+.overview-card__img{
+    background-color: pink;
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+}
+.overview-card__img img{
+    height: initial;
+    width: initial;
+    transform: translate(50%,50%);
+}
+.overview-card__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #04172A;
+    }
+.overview-card__desc{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}

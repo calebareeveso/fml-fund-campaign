@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'DMSans-Regular';
+  src: url('./components/assets/fonts/DM-Sans/DMSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'DMSans-Bold';
+  src: url('./components/assets/fonts/DM-Sans/DMSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'DMSans-Medium';
+  src: url('./components/assets/fonts/DM-Sans/DMSans-Medium.ttf');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'DMSans-Regular',Arial, Helvetica, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'DMSans-Regular', monospace;
+}
+

@@ -1,0 +1,62 @@
+.UserSearch {
+  position: relative;
+  width: 100%;
+
+}
+
+.SearchIcon {  
+  position: absolute;
+  top: 20%;
+  right: 85%;
+  border: none;
+  background-color: transparent;
+}
+
+.CloseIcon {
+  position: absolute;
+  top: 20%;
+  right: 11%;
+  border: none;
+  background-color: transparent;
+  opacity: 0.4;
+}
+
+.UserFormGroup {
+  width: 100% !important;
+}
+
+.SearchForm {
+  border-radius: 50px;
+  padding: 10px 20px 10px 45px;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F6F6F6;
+  border-color: transparent;
+  width: 100%;
+}
+
+.SearchForm::placeholder {
+  color: black;
+  font-size: 13px;
+
+}
+
+.SearchForm:hover, 
+.SearchForm:focus, 
+.CloseIcon:hover, 
+.CloseIcon:focus, 
+.SearchIcon:hover, 
+.SearchIcon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.schIc {
+  font-size:15px !important;
+}
+
+
+@media screen and (max-width: 991px) {
+  .UserSearch {
+    display: none;
+  }
+}

@@ -1,0 +1,97 @@
+.navbar-light .navbar-nav .nav-link{
+    color: #04172A;
+}
+
+.dropdown-toggle::after{
+    vertical-align: 0.055em;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #04172A;
+}
+
+.dropdown-toggle::after{
+    vertical-align: 0.055em;
+}
+
+li.nav-item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.navbar .container-fluid{
+    width: 90%;
+}
+
+/*remove bootstrap default svg background */
+.navbar-light .navbar-toggler {
+    background: none;
+}
+
+/* hamburger classes and animation */
+.navbar-toggler {
+    cursor: pointer;
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .5rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1rem;
+    border-radius: .25rem;
+}
+
+.navbar-toggler span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: #000000;
+    border-radius: 3px;
+    opacity: 1;
+    left: 25%;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.navbar-toggler span:nth-child(1) {
+    top: 34.5%;
+}
+
+.navbar-toggler span:nth-child(2), .navbar-toggler span:nth-child(3) {
+    top: 50%;
+}
+
+.navbar-toggler span:nth-child(4) {
+    top: 65.5%;
+}
+
+.navbar-toggler.open span:nth-child(1) {
+top: 18px;
+width: 0%;
+left: 50%;
+}
+
+.navbar-toggler.open span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+
+.navbar-toggler.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+}
+
+.navbar-toggler.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    color: #000000;
+}

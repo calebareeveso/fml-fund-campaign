@@ -1,0 +1,191 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 18px; */
+}
+nav .login {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.atag {
+  color: inherit;
+}
+
+.atag:hover {
+  text-decoration: none;
+  color: #fb3f5c;
+}
+
+.form-control:focus {
+  color: #1c7ed6 important;
+  border-color: #1c7ed6 !important;
+  box-shadow: none !important;
+}
+
+.btn-google {
+  border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  color: #fb3f5c;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07);
+}
+.btn-fml-secondary {
+  color: #fff;
+  background-color: #fb3f5c;
+  border-color: #fb3f5c;
+}
+.login-btn.form-control {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: inherit;
+}
+.login-btn.reg-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-fml-secondary:hover {
+  color: #fff;
+  background-color: #fa1a3c;
+  border-color: #fa0d32;
+}
+.facbook-logo {
+  font-size: 26px;
+  padding-left: 1.5rem;
+}
+.login-btn-facebook {
+  border: 1px solid #1c7ed6;
+  color: #1c7ed6;
+}
+.login-btn-facebook:hover {
+  color: white;
+  background-color: #1c7ed6;
+}
+.login-btn-github {
+  border: 1px solid #24292e;
+  color: #24292e;
+}
+.login-btn-github:hover {
+  color: #ffffff;
+  background-color: #24292e;
+}
+.btn-fml-secondary:focus,
+.btn-fml-secondary.focus {
+  color: #fff;
+  background-color: #fa1a3c;
+  border-color: #fa0d32;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(252, 92, 116, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(252, 92, 116, 0.5);
+}
+
+.btn-fml-secondary.disabled,
+.btn-fml-secondary:disabled {
+  color: #fff;
+  background-color: #fb3f5c;
+  border-color: #fb3f5c;
+}
+
+.btn-fml-secondary:not(:disabled):not(.disabled):active,
+.btn-fml-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-fml-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #fa0d32;
+  border-color: #f5052a;
+}
+input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.btn-fml-secondary:not(:disabled):not(.disabled):active:focus,
+.btn-fml-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-fml-secondary.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(252, 92, 116, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(252, 92, 116, 0.5);
+}
+.or hr {
+  width: 47%;
+  border: 0.5px solid rgb(8, 68, 130, 0.1);
+}
+
+.or span {
+  color: rgb(8, 68, 130);
+  margin: -2px 4px 0 4px;
+  /* border: 4px solid #f5f5f5; */
+}
+
+.login-box {
+  flex: 1 0 44%;
+}
+
+.login-img-box {
+  flex: 1 0 56%;
+}
+
+.login-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.login-text {
+  width: 90%;
+}
+.facbook-logo {
+  font-size: 26px;
+  padding-left: 1.5rem;
+}
+.login-btn-facebook {
+  border: 1px solid #1c7ed6;
+  color: #1c7ed6;
+}
+.login-btn-facebook:hover {
+  color: white;
+  background-color: #1c7ed6;
+}
+@media only screen and (min-width: 1000px) {
+  .signup-form,
+  .btn-google,
+  .textWidth,
+  .check-control .or-box {
+    width: 87%;
+    margin-left: 14px;
+  }
+  /* .main-content {
+    height: 100vh;
+  } */
+}
+
+@media only screen and (max-width: 766px) {
+  .welcome-text,
+  .login-text {
+    text-align: center;
+    width: 87%;
+    margin: auto;
+  }
+  .signup-form,
+  .check-control,
+  .btn-google,
+  .textWidth,
+  .or-box {
+    width: 87%;
+    margin: 0.5rem auto;
+  }
+}
+
+.check-area.form-control {
+  border: none;
+}

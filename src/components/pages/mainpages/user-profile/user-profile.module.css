@@ -1,0 +1,120 @@
+.UserProfile {
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.UserProfile a {
+    color: #333333;
+}
+
+.UserProfile h1 {
+    margin: 60px 0 33px;
+    color: #04172A;
+    font-size: 24px;
+}
+
+.UserProfile h2 {
+    font-size: 20px;
+    color: #04172A;
+    margin: 0px;
+}
+
+.ProfileImg {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.Username {
+    font-size: 20px;
+}
+
+.UserType {
+    font-size: 18px;
+    margin: 0;
+}
+
+.Edit {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    display: block;
+}
+
+.Stats {
+    margin-top: 95px;
+}
+
+.Stats h2 {
+    margin-bottom: 24px;
+}
+
+.Recommendations {
+    margin-top: 100px;
+    margin-bottom: 108px;
+}
+
+.RecommendHeader {
+    margin-bottom: 24px;
+}
+
+a.RecommendLink {
+    font-size: 18px;
+    color: #FB3F5C !important;
+    font-weight: bold;
+}
+
+.NoData {
+    margin: 0 auto;
+    border: 1.5px solid #C4C4C4;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.NoData h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    color: #04172A;
+    margin-top:16px;
+    margin-bottom: 24px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .UserProfile h1 {
+        font-size: 40px;
+        margin: 68px 0;
+    }
+
+    .UserProfile {
+        padding-top: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .ProfileImg {
+        height: 200px;
+        width: 200px;
+    }
+
+    .Username {
+        font-size: 24px;
+    }
+
+    .Edit {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .UserProfile h2 {
+        font-size: 28px;
+        margin-top: 0px;
+    }
+
+    a.RecommendLink {
+        font-size: 28px;
+    }
+}

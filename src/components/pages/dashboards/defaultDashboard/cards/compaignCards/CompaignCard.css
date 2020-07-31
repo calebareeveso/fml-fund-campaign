@@ -1,0 +1,38 @@
+/* Compaign CARD */
+.compaign-card{
+    background: rgba(245, 246, 250, 0.5);
+    border-radius: 10.9946px;
+    padding: 17px 14px 14px 20px;
+}
+.compaign-card__name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.compaign-card__job{
+    font-size: 16px;
+    line-height: 21px;
+    color: #04172A;
+}
+.compaign-card__body-desc{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+.compaign-card__body-desc span{
+    color: #28f328;
+}
+.compaign-card__btn{
+    height: 37px;
+    background: #04172A;
+    box-shadow: 0px 4px 4px rgba(4, 23, 42, 0.05);
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 9px;
+}

@@ -1,0 +1,32 @@
+// UI Reducer Types
+export const LOADING_UI = 'LOADING_UI';
+export const LOADED_UI = 'LOADED_UI';
+export const SET_ERRORS = 'SET_ERRORS';
+export const VERIFY_EMAIL = 'VERIFY_EMAIL';
+export const TERMS_CHECKED = 'TERMS_CHECKED';
+export const TERMS_UNCHECKED = 'TERMS_UNCHECKED';
+
+//User Reducer Types
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED';
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED';
+export const SET_USER = 'SET_USER';
+export const LOADING_USER = 'LOADING_USER';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const REGISTERED_USER = 'REGISTERED_USER';
+export const FORM_SUBMITED = 'FORM_SUBMITED';
+
+//Data Reducer
+export const CREATE_REQUEST = 'CREATE_REQUEST';
+export const FETCH_FAQS = 'FETCH_FAQS';
+export const FETCH_SEARCH_FAQS = 'FETCH_SEARCH_FAQS'
+export const ADD_FAQS = 'ADD_FAQS'
+export const MAKE_PAYMENT = 'MAKE_PAYMENT'
+export const MAKE_PAYMENT_OTP = 'MAKE_PAYMENT_OTP'
+export const FETCH_FUNDEE_DASHBOARD_INFOS='FETCH_FUNDEE_DASHBOARD_INFOS'
+
+// Blog Reducer
+export const CREATE_BLOG_POST='CREATE_BLOG_POST'
+export const GET_ALL_BLOG_POST='GET_ALL_BLOG_POST'
+export const GET_BLOG_POST='GET_BLOG_POST'
+export const COMMENT_BLOG_POST='COMMENT_BLOG_POST'
+export const CREATE_BLOG_STATUS='CREATE_BLOG_STATUS'

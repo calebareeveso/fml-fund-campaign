@@ -1,0 +1,87 @@
+:root {
+    --light:#FFFFFF;
+    --dark: #04172A;
+}
+
+/** Fonts styling */
+
+.text h1 {
+    font-size: calc(26px + (40 - 26) * ((100vw - 320px) / (1600 - 320)));
+    line-height: calc(34px + (52 - 34) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.text h4 {
+    font-size: calc(18px + (32 - 18) * ((100vw - 320px) / (1600 - 320)));
+    line-height: calc(23px + (42 - 23) * ((100vw - 320px) / (1600 - 320)));
+    margin-bottom: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 500;
+}
+
+.text h6 {
+    font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1600 - 320)));
+    line-height: calc(18px + (20 - 18) * ((100vw - 320px) / (1600 - 320)));
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: normal;
+} 
+
+.text p {
+    font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1600 - 320)));
+    line-height: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+
+/** Padding and margin stylings */
+
+.custom__px_main {
+    padding-left: calc(15px + (200 - 15) * ((100vw - 320px) / (1600 - 320)));
+    padding-right: calc(15px + (200 - 15) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.custom__px1_main {
+    padding-left: calc(20px + (100 - 20) * ((100vw - 320px) / (1600 - 320)));
+    padding-right: calc(20px + (100 - 20) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.custom__py_main {
+    padding-top: calc(20px + (120 - 20) * ((100vw - 320px) / (1600 - 320)));
+    padding-bottom: calc(60px + (200 - 60) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.custom__py1_main {
+    padding-top: calc(15px + (25 - 15) * ((100vw - 320px) / (1600 - 320)));
+    padding-bottom: calc(30px + (50 - 30) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.mb_main {
+    margin-bottom: calc(60px + (100 - 60) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.mt_offset {
+    margin-top: calc(-60px + (-150 + 60) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.main_bg {
+    background-image: url('../../../assets/images/privacy-bg.png');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+/** Colors and alignment stylings */
+
+.text_light {
+    color: var(--light);
+}
+
+.text_dark {
+    color: var(--dark);
+}
+
+.text_center {
+    text-align: center;
+}
+
+.box_shadow {
+    box-shadow: 8px 2px 20px rgba(191, 191, 191, 0.2);
+    background-color: var(--light);
+}

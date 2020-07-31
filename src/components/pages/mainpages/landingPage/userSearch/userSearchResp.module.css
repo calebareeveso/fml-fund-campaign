@@ -1,0 +1,122 @@
+.UserSearchResp {
+  position: relative;
+  width: 100%;
+}
+
+.SearchIconResp {  
+  position: absolute;
+  top: 45%;
+  right: 95%;
+  border: none;
+  background-color: transparent;
+}
+
+.CloseIconResp {
+  position: absolute;
+  top: 43%;
+  right: 5%;
+  border: none;
+  background-color: transparent;
+  opacity: 0.4;
+}
+
+
+.SearchFormResp {
+  border-radius: 50px;
+  padding: 8px 20px 8px 50px;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F6F6F6;
+  border-color: transparent;
+  width: 100%;
+}
+
+.SearchResp::placeholder {
+  color: black;
+  font-size: 13px;  
+}
+
+.SearchFormResp:hover, 
+.SearchForm:focus, 
+.CloseIcon:hover, 
+.CloseIcon:focus, 
+.SearchIcon:hover, 
+.SearchIcon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.schIcResp {
+  font-size:15px !important;
+}
+
+.FormGroupResp {
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .UserSearchGenResp {
+    display: none;
+  }
+}
+
+@media (min-width: 449px) and (max-width: 574px) {
+  .SearchIconResp {  
+    right: 87%;
+  }
+
+  .CloseIconResp {
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .SearchIconResp {  
+    right: 87%;
+  }
+
+  .CloseIconResp {
+    right: 10%;
+  }
+}
+
+@media (min-width:575px) {
+  .SearchIconResp {  
+    right: 92%;
+  }
+
+  .CloseIconResp {
+    right: 5%;
+  }
+}
+
+@media (min-width:768px) {
+  .SearchIconResp {  
+    right: 94%;
+  }
+
+  .CloseIconResp {
+    right: 4%;
+  }
+}
+
+
+@media (min-width:820px) {
+  .SearchIconResp {  
+    right: 95%;
+  }
+
+  .CloseIconResp {
+    right: 4%;
+  }
+}
+
+@media (min-width:860px) {
+  .SearchIconResp {  
+    right: 94%;
+  }
+
+  .CloseIconResp {
+    right: 4%;
+  }
+}

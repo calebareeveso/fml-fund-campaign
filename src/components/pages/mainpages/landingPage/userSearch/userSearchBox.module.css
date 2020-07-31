@@ -1,0 +1,62 @@
+.UserSearchBox {
+  font-family: 'DM Sans', sans-serif;
+  width:100%;
+  position: absolute;
+  top: 90px;
+  z-index: 9999999;
+  left: 0;
+  background-color: white;
+}
+
+.UserList > .UserListItem {
+  border-width: 0 0 4px !important;
+}
+
+.UserCard > .UserList:last-child {
+  border-width: 0px !important;
+  border-bottom-right-radius: calc(0.25rem - 1px) !important;
+  border-bottom-left-radius: calc(0.25rem - 1px) !important;
+}
+
+.UserName {
+  margin-bottom: 0;
+  color: #04172a;
+  font-size: 12px;
+  text-align: left;
+}
+
+.UserProgress {
+  height: 7px;
+}
+
+.UserProgressBar {
+  width: 80%;
+  background-color: #fb3f5c;
+}
+
+.UserProgressText {
+  color: rgba(4, 23, 42, 0.9);
+  font-weight: bold;
+}
+
+.UserBreak {
+  float: right;
+  font-weight: 400;
+}
+
+.UserProgressTintText {
+  color: #ababab;
+  font-size: 9px;
+}
+
+.UserLink:hover, .UserLink:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .UserSearchBox {
+    display: none;
+  }
+}
+

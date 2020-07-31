@@ -1,0 +1,26 @@
+.PinWheelColor {
+    /* width: 100%;
+    height: 100%; */
+    background: transparent;
+    display: block;
+    margin-left: 48px;
+    margin-bottom: 20px;
+}
+
+.PinWheelColor::after {
+    content: "";
+    display: inline-block;
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+    border: 4px solid rgba(251,63,92,.7);
+    border-left-color: #fff;
+    border-radius: 50%;
+    -webkit-animation: rotate 1s linear infinite;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

@@ -1,0 +1,411 @@
+$textColor: #04172a;
+$buttonColor: #fb3f5c;
+
+* {
+  box-sizing: border-box;
+}
+
+@mixin minWidth($arg) {
+  @media screen and (min-width: $arg) {
+    @content;
+  }
+}
+
+@mixin border {
+  border: 1px dashed rgba(4, 23, 42, 0.7);
+  border-radius: 5px;
+}
+
+@mixin h5 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 27px;
+  color: $textColor;
+
+  @include minWidth(665px) {
+    font-size: 2rem;
+    line-height: 67px;
+  }
+}
+
+@mixin p {
+  font-size: 0.75rem;
+  line-height: 16px;
+  color: rgba(4, 23, 42, 0.3);
+
+  @include minWidth(665px) {
+    font-size: 0.875rem;
+    line-height: 18px;
+  }
+}
+
+@mixin label {
+  font-size: 0.75rem;
+  line-height: 16px;
+  color: $textColor;
+  margin-bottom: 17px;
+  width: 100%;
+
+  @include minWidth(665px) {
+    font-size: 1rem;
+    line-height: 21px;
+  }
+}
+
+@mixin button($arg, $pH) {
+  display: block;
+  outline: none;
+  border: none;
+  margin: auto;
+  max-width: $arg;
+  width: 100%;
+  color: #ffffff;
+  background-color: $buttonColor;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 29px;
+  padding: $pH 0;
+  cursor: pointer;
+}
+
+@mixin border-bottom($pB) {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: $pB;
+}
+
+@mixin textarea($mW) {
+  max-width: $mW;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid rgba(4, 23, 42, 0.7);
+  border-radius: 4px;
+  margin-bottom: 9px;
+  outline: none;
+
+  &::placeholder {
+    @include p;
+  }
+}
+
+@mixin input {
+  width: 100%;
+  margin-bottom: 46px;
+  padding: 16px;
+  border: 1px solid rgba(4, 23, 42, 0.7);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: $textColor;
+  outline: none;
+
+  &::placeholder {
+    color: $textColor;
+  }
+}
+
+.loan-request {
+  // padding-top: 30px;
+
+  .create {
+    font-weight: bold;
+  }
+  // Overlay Styles
+  #overlay {
+    position: fixed;
+    background-color: rgba(4, 23, 42, 0.7);
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    &.inactive {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  #message {
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 541px;
+    max-width: 80%;
+    background-color: #ffffff;
+    padding: 30px;
+
+    img {
+      margin-bottom: 30px;
+      background-color: #ffffff;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 30px;
+      color: $textColor;
+      margin-bottom: 40px;
+    }
+
+    a {
+      @include button(277px, 15px);
+    }
+
+    &.inactive {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  // Loan Request Styles
+  .loan-wrapper {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 24px;
+
+    form {
+      margin-top: 34px;
+      padding-bottom: 126px;
+
+      .top-content{
+        background-color: #fb3f5c;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        margin-bottom: 40px;
+
+      }
+
+      .upload-wrapper {
+        // margin-bottom: 46px;
+
+        .upload {
+          @include border;
+          padding: 40px 0 38px;
+          margin-bottom: 23px;
+
+          h4 {
+            font-weight: 500;
+            font-size: 1.25rem;
+            line-height: 10px;
+            color: $textColor;
+          }
+
+          p {
+            @include p;
+            max-width: 236px;
+            text-align: center;
+          }
+
+          a {
+            @include button(195px, 8px);
+            margin: 5px 0 22px;
+          }
+        }
+
+        .upload-add {
+          min-height: 124px;
+          height: 100%;
+
+          div {
+            max-width: 143px;
+            width: 100%;
+            @include border;
+
+            &:first-child {
+              margin-right: 24px;
+            }
+          }
+        }
+      }
+
+      // Motivational Styles
+      .motivational-wrapper {
+        // @include border-bottom(48px);
+
+        h5 {
+          @include h5;
+        }
+
+        p {
+          @include p;
+        }
+
+        label {
+          @include label;
+        }
+
+        textarea {
+          @include textarea(574px);
+        }
+      }
+
+      // Loan Details Styles
+      .loan-details-wrapper {
+        padding-top: 16px;
+        @include border-bottom(48px);
+
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          width: 40%;
+          background-color: #ffffff;
+        }
+
+        h5 {
+          @include h5;
+        }
+
+        label {
+          @include label;
+        }
+
+        input {
+          @include input;
+        }
+
+        textarea {
+          @include textarea(737px);
+        }
+      }
+
+      // Payback Styles
+      .payback-wrapper {
+        padding-top: 16px;
+        @include border-bottom(14px);
+       
+
+        .loan-form{
+          .card2{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+              transition: 0.3s;
+            background-color: #ffffff;
+          }
+        }
+
+        h5 {
+          @include h5;
+        }
+
+        label {
+          @include label;
+        }
+
+        input {
+          @include input;
+        }
+
+        select {
+          @include input;
+        }
+      }
+
+      // socoal media Styles
+      .social-head{
+        text-align: center;
+        padding: 20px;
+      }
+
+      .card3{
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        background-color: #ffffff;
+      }
+      // .invite-wrapper {
+      //   padding-top: 16px;
+
+      //   h5 {
+      //     @include h5;
+      //   }
+
+      //   label {
+      //     @include label;
+      //   }
+
+      //   input {
+      //     @include input;
+      //   }
+      // }
+
+      button {
+        @include button(277px, 20px);
+        margin-top: 70px;
+        
+      }
+    }
+  }
+
+  @include minWidth(375px) {
+    .card3{
+      padding: 10px;
+    }
+  }
+
+  @include minWidth(827px) {
+    .loan-wrapper {
+      padding: 0 60px;
+    }
+
+    .top-content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 57px;
+      border-bottom: 1px solid #e5e5e5;
+
+      .motivational-wrapper {
+        border-bottom: none !important;
+      }
+    }
+
+    .loan-details-wrapper {
+      .loan-details-content {
+        max-width: 737px;
+        width: 100%;
+      }
+
+      .form-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 120px;
+      }
+    }
+
+    .payback-wrapper {
+      .form-group {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 40px;
+      }
+    }
+
+    .invite-wrapper {
+      max-width: 736px;
+      width: 100%;
+
+      .form-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 122px;
+      }
+    }
+
+    button {
+      margin-left: 0 !important;
+    }
+  }
+
+  @include minWidth(1000px) {
+    .loan-wrapper {
+      padding: 0 90px;
+    }
+  }
+
+  @include minWidth(1200px) {
+    .loan-wrapper {
+      padding: 0 140px;
+    }
+  }
+}

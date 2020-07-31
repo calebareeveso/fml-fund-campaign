@@ -1,0 +1,41 @@
+.ProfileStat {
+    width: 100%;
+    border: 1.5px solid #C4C4C4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 55px 20px;
+    text-align: center;
+    height: 151px;
+}
+
+.ProfileStat h3 {
+    color: #04172A;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.ProfileStat p {
+    line-height: 0;
+    margin-top: 25px;
+    color: #FB3F5C;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    .ProfileStat {
+        height: 200px;
+        padding: 37px 55px 20px;
+    }
+
+    .ProfileStat h3 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .ProfileStat p {
+        font-size: 32px;
+        margin-top: 35px;
+    }
+}

@@ -1,0 +1,30 @@
+.Breadcrumb {
+    list-style-type: none;
+    display: none;
+}
+
+.Breadcrumb li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.Breadcrumb li:nth-child(2) {
+    margin-left: 10px;
+}
+
+.Breadcrumb li a {
+    color: #595757;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Active {
+    color: #FB3F5C !important;
+}
+
+
+@media screen and (min-width: 600px) {
+    .Breadcrumb {
+        display: block;
+    }
+}

@@ -1,0 +1,33 @@
+.editProfileLayer1 {
+  background-color: #FBFAFA;
+}
+
+.editProfileLayer-mb-10{
+  margin-bottom: 10em;
+}
+/* .profilepicture-height{
+  height: 10em;
+} */
+.editProfileLayer-pb-10{
+  padding-bottom: 10em;
+}
+.editProfileLayer-pb-4{
+  padding-bottom: 4em;
+}
+.editProfileImg {
+  /* height: 90px;
+  width: 90px; */
+  border-radius: 100%;
+  object-fit: cover;
+}
+.w-65{
+  width: 65%;
+}
+.editProfileLabel {
+  color: #04172A;
+  opacity: 70%;
+}
+.editProfilePrimary{
+  color: 04172A;
+  opacity: 30%;
+}

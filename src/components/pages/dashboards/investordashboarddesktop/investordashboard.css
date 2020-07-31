@@ -1,0 +1,701 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .investorcontain-arrow-helper {
+    position: relative;
+  }
+
+  .investorslide-control {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+  
+  .investorslide-control.investorarrow-left {
+    margin-left: -40px;
+    left: 0;
+    cursor: pointer;
+  }
+  
+  .investorslide-control.investorarrow-right {
+    margin-right: -40px;
+    right: 0;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1199.98px) {
+    .investorslide-control.arrow-left, .investorslide-control.arrow-right {
+      width: 10px;
+      height: 30px;
+    }
+    .investorslide-control.investorarrow-left {
+      margin-left: -7px;
+    }
+    .investorslide-control.investorarrow-right {
+      margin-right: -7px;
+    }
+  }
+  
+  @media (pointer: coarse) {
+    .investorslide-control {
+      display: none;
+    }
+  }
+
+  .investorhelp-card-contain {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .investorhelp-card-contain::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .investorhelp-card-contain > * + * {
+    margin-left: 16px;
+  }
+  
+  .investorhelp-card {
+    background: rgba(4, 23, 42, 0.03);
+    min-width: 230px;
+  }
+  
+  .investorprofile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  
+  .investorprofile .investorplaceholder {
+    width: 60px;
+    height: 60px;
+    background: #c4c4c4;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .investorprofile h5 {
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  
+  .investorprofile small {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .investorprofile h5 {
+      font-size: 14px;
+    }
+    .investorprofile small {
+      font-size: 12px;
+    }
+    .investorprofile .investorplaceholder {
+      width: 42px;
+      height: 42px;
+    }
+  }
+  
+  p.investorloan-amount {
+    font-size: 15px;
+    margin-top: 1.3em;
+  }
+  
+  @media (max-width: 767.98px) {
+    p.investorloan-amount {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .investorhelp-card button {
+      font-size: 12px;
+    }
+  }
+
+  .investorfunded-progress {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    border-radius: 3px;
+    background: rgba(4, 23, 42, 0.05);
+    margin-top: 1.33em;
+  }
+  
+  @media (max-width: 767.98px) {
+    .investorfunded-progress {
+      height: 12px;
+    }
+  }
+  
+  .investorfunded-progress .investorfunded {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    background: var(--fml-primary);
+    border-radius: 3px;
+  }
+  
+  .percentage{
+    font-size:30px !important;
+    margin-bottom:-15px !important;
+  }
+  
+  .investorfunded-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 12px;
+    line-height: 2;
+  }
+  
+ 
+
+#investorright-button{
+    margin-right:0px;
+}
+.investororder{
+    display:flex;
+}
+
+.investororder1 {
+    order: 1;
+}
+.investororder2{
+    order: 2;
+    margin-top:0px;
+}
+
+.investordontshow{
+    display:block;
+}
+  .investorhide{
+    display:none;
+  }
+
+  .investorday{
+    font-size: 22px;
+  }
+
+  .investorinvesteebox{
+      margin-left:20px;
+  }
+
+  .investorname{
+      margin-left:10px;
+  }
+
+  .investorloanamount{
+      margin-bottom:20px;
+  }
+
+  .investorinvesteename{
+    font-size: 24px; 
+    line-height: 24px; 
+    margin-bottom: 0;
+  }
+  .investorinvesteeimg{
+    height: 60px; 
+    width: 60px;
+    margin-bottom: 10px;
+  }
+
+  .investorspace{
+    flex: 1;
+  }
+  .investorfundspaid{
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 10px;
+  }
+
+  .investorbalanceLeft{
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+  } 
+
+  .investorpink-text {
+    text-decoration: none;
+    color: #FB3F5C
+  }
+
+   .investorpadding{
+       padding-left:0%;   
+   }
+
+   .investortablepadding{
+    padding-left:0%;
+    padding-right:0%; 
+    margin-top:0px;  
+}
+.investortext--secondary {
+    color: #FB3F5C;
+}
+
+.investoruser {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+  .investoruser__intro,
+  .investoruser p {
+    margin: 5px 0;
+  }
+
+  .investoruser-carousel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  }
+
+  .fa {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .investorleft-arrow {
+    margin-top: 120px;
+    position: absolute;
+    left: 0;
+    margin-left: 60px;
+  }
+
+  .investorright-arrow {
+    margin-top: 120px;
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+  }
+
+  .investoruser-financials {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 250px;
+    height: 258px;
+    background: rgba(4, 23, 42, 0.03);
+  }
+
+  .investoruser-financials button {
+    width: 100px;
+    margin-top: 20px;
+    background: #FB3F5C;
+    box-shadow: 0px 4px 15px rgba(251, 63, 92, 0.2);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .investoruser-details {
+    display: flex;
+    width: 100%;
+  }
+
+  progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 95%;
+    margin: auto;
+    height: 15px;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 3px;
+  }
+
+  progress[value]::-webkit-progress-value {
+    background: #04172A;
+    border-radius: 3px
+  }
+
+  .investoraccount {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  }
+
+  .investoraccount-header {
+    font-size: 1.2em;
+    margin-bottom: -20px !important;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .investoraccount__block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+  section{
+    margin-top:0;
+    margin-left:0;
+  }
+  .investoraccount__block--details {
+    max-width: 100%;
+    padding: 15px;
+    background: rgba(4, 23, 42, 0.05);
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+  .investoraccount__block--details span {
+    font-size: .7em;
+    font-weight: lighter;
+    margin-right: 5px;
+  }
+
+  .investoraccount__progress {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .investoraccount__progress img{
+    width: 110px;
+    height:110px;
+    margin: 0;
+  }
+
+  /*@media screen and (max-width:500px){
+    .account__progress img{
+        width:50%;
+        height:50%;
+    }  
+  }*/
+
+
+  .investortable {
+    margin-top:0px;
+    width:100%;
+  }
+
+  .investortable header {
+    font-size: 1.2em;
+  }
+
+  .investortable__container {
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .investortable__container::-webkit-scrollbar {
+    display: none;
+  }
+
+  table {
+    font-size: .8em;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tr {
+    border-bottom: 2px solid rgba(4, 23, 42, 0.1);
+  }
+
+  .investorthead {
+    font-weight: bold;
+    background: #FB3F5C;
+    color: #fff;
+    border-bottom: 0px;
+  }
+
+  td {
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .investortbody td {
+    padding: 15px 5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .investoruser p {
+      font-size: 11px;
+    }
+
+    .fa {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .investorleft-arrow {
+      margin-top: 120px;
+      position: absolute;
+      left: 0;
+      margin-left: 10px;
+    }
+
+    .investorright-arrow {
+      margin-top: 120px;
+      position: absolute;
+      right: 10px;
+      margin-right: 0px;
+    }
+
+    td {
+      padding: 5px 5px;
+      font-size: 8px;
+    }
+
+    .investortbody td {
+      padding: 10px 5px;
+    }
+
+    .investorthead {
+      font-weight: bold;
+      font-size: 12px;
+      background: #FB3F5C;
+      color: #fff;
+      border-bottom: 0px;
+    }
+
+    .investoraccount {
+      margin-top: 20px;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .investoraccount__block {
+      margin: auto;
+    }
+
+    .investoraccount__block--details small {
+      font-size: 12px;
+    }
+
+    .investoraccount__block--details h2 {
+      font-size: 16px;
+    }
+
+    .investoraccount__block--details span {
+      font-size: 14px;
+    }
+
+  }
+
+  @media screen and (min-width: 768px) {
+    .investororder1 {
+        order: 2;
+        }
+        .investororder2{
+        order: 2;
+        margin-top:30px;
+        }
+      .investordontshow{
+          display:none;
+      }
+
+    .investoraccount__progress img{
+        width: 200px;
+        height:200px;
+        margin: auto;
+      }
+    .investorhide{
+        display:block;
+      }
+
+    .investoraccount {
+      margin-top: 0px;
+    }
+
+    .investoraccount__block {
+      width: 100%;
+      margin-left:2%;
+    }
+
+    .investoraccount__block--details {
+      width: 100%;
+      flex: 0 0 32%;
+      padding: 20px;
+      
+    }
+
+    .investoraccount__progress {
+      width: 100%;
+      margin-top: -20px;
+    }
+
+    .investortable__container {
+      overflow: auto;
+    }
+
+    .investorthead td {
+      padding: 20px;
+    }
+
+    td {
+      padding: 10px 10px;
+      font-size: 14px;
+    }
+
+    .investortbody td {
+      padding: 25px 15px;
+    }
+
+    tr {
+      border-bottom: 2px solid rgba(4, 23, 42, 0.1);
+    }
+  }
+
+  @media screen and (min-width: 1000px){
+    .investororder1 {
+        order: 2;
+    }
+    .investororder2{
+        order: 2;
+        margin-top:30px;
+    }
+    .investordontshow{
+          display:none;
+    }
+
+    .investoraccount__progress img{
+        width: 200px;
+        height:200px;
+        margin: auto;
+    }
+    .investorhide{
+        display:block;
+    }
+
+    #investorright-button{
+        margin-right:-30px;
+    }
+    #left-button{
+        margin-left:-30px;
+    }
+    .investoraccount {
+      margin-top: 0px;
+      width:100%;
+    }
+
+    .investoraccount__block {
+      margin-left:2%;
+      width: 100%;
+    }
+
+    .investoraccount__block--details {
+      width: 100%;
+      padding: 20px;
+      
+    }
+    .investedAmount{
+      font-size:20px !important;
+    }
+
+    .investoraccount__progress {
+      width: 100%;
+      margin-top: -20px;
+    }
+
+    .investortable__container {
+      overflow: auto;
+    }
+
+    .investorthead td {
+      padding: 20px;
+    }
+
+    td {
+      padding: 10px 10px;
+      font-size: 14px;
+    }
+
+    .investortbody td {
+      padding: 25px 15px;
+    }
+
+    tr {
+      border-bottom: 2px solid rgba(4, 23, 42, 0.1);
+    }
+  }
+
+
+  @media screen and (min-width: 1250px) {
+    .investororder1 {
+        order: 2;
+        }
+        .investororder2{
+        order: 2;
+        margin-top:30px;
+        }
+    .investordontshow{
+        display:none;
+    }
+    .investoraccount__progress img{
+        width: 220px;
+        height:220px;
+        margin-top:30px;
+      }
+    #investorright-button{
+        margin-right:20px;
+    }
+    #investorleft-button{
+        margin-left:0px;
+    }
+    .investorhide{
+        display:block;
+      }
+      .percentage{
+        font-size:50px !important;
+        margin-bottom:0px !important;
+      }
+   
+
+    .investoruser__intro {
+      font-size: 2em;
+    }
+
+    .investoraccount {
+      flex-direction: initial;
+      margin-bottom:50px;
+    }
+
+    .investoraccount__block {
+      width: 75%;
+      height: 0;
+      margin:0;
+    }
+
+    .investoraccount__block--details {
+      padding: 20px 40px;
+    }
+
+    .investortable {
+      margin-top: -30px;
+    }
+
+  }

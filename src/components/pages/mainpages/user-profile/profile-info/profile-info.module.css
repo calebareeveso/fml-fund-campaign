@@ -1,0 +1,25 @@
+.ProfileInfo {
+    margin-top: 28px;
+}
+
+.ProfileInfo h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #04172A;
+}
+
+.ProfileInfo p {
+    font-size: 16px;
+    color: #333333;
+}
+
+
+@media screen and (min-width: 600px) {
+    .ProfileInfo {
+        margin-top: 40px;
+    }
+
+    .ProfileInfo h3 {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+/* new styles  */
+
+.none {
+    display: none;
+}
+.show {
+    display: block;
+}
+.opa {
+    opacity: 0;
+}
+.opaS{
+    opacity: 1;
+}
+
+
+.heading_row{
+    background-color: #FAFAFA;
+}
+.header_right select {
+    border: 1px solid rgba(4, 23, 42, 0.7);
+    border-radius: 4px;
+    width: 163px !important;
+    height: 48px !important;
+    max-width: 163px !important;
+    padding:1px 5px !important;
+    text-align: left !important;
+    margin:0 !important
+}
+.header_right option {
+    max-width: 103px !important;
+}
+.line{
+    border: 1px solid rgba(181, 181, 181, 0.53);
+    transform: rotate(0.04deg);
+}
+.row_img{
+    width: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 75px !important;
+    margin-right:20px;
+}
+.img2{
+    width:25px !important;
+    margin-left: 10px !important;
+    margin-top:-5px !important;
+}
+.name{
+    font-size:24px !important;
+    width:100% !important
+}
+.description{
+    padding-left:105px;
+}
+.details_flex{
+    margin-top:20px !important
+}
+.details_flex p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #04172A;
+}
+.progress_div{
+    width:100%;
+}
+.description p{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+
+    color: rgba(4, 23, 42, 0.68);
+}
+.description h3{
+    font-size: 16px !important
+}
+.progress_bar[value]{
+    width: 100%;
+    height: 5px !important;
+    background-color: white !important
+}
+.progress_bar[value]::-webkit-progress-bar{
+    background-color: rgb(214, 212, 212);
+    height: 5px !important;
+    width: 100%;
+}
+.progress_bar[value]::-webkit-progress-value{
+    background-color: #FB3F5C !important
+}
+.button_flex .btn1{
+    width: 347px;
+    background-color: #FB3F5C !important;
+    color:white;
+    margin-right: 30px;
+    padding:15px 30px;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    height: 68px !important;
+    margin-bottom: 20px;
+    font-weight: bold
+}
+.button_flex .btn2{
+    width: 347px;
+    background-color: white;
+    color:#FB3F5C;
+    padding:15px 30px;
+    height: 68px !important;
+    text-align: center;
+    border: 1.6px solid #FB3F5C;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only  screen  and (max-width:576px) {
+    .heading_row{
+        background-color: #FAFAFA;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .heading_flex{
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .details_flex{
+        flex-direction: column;
+        align-items: baseline !important;
+    }
+    .name{
+        font-size:16px !important;
+        width:100% !important;
+    }
+    .img2{
+        width:15px !important;
+        margin-left: 10px !important;
+        margin-top:-5px !important;
+    }
+    .row_img{
+        width: 56px;
+        height: 56px !important;
+        margin-right:10px;
+    }
+    .details_flex{
+        margin-top:20px !important
+    }
+    .campaign_component{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .description{
+        padding-left:16px;
+        padding-right:16px;
+    }
+    .description p{
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 36px;
+    
+        color: rgba(4, 23, 42, 0.68);
+    }
+    .button_flex .btn1{
+        width:100%;
+        margin-right: 0 !important
+    }
+    .button_flex .btn2{
+        width:100% !important;
+        margin-right: 0 !important
+    }
+}
+@media only screen and (min-width:700px) {
+    .progress_div{
+        width:70%;
+    }
+    .progress_bar[value]{
+      
+        height: 5px !important;
+    }
+    .progress_bar[value]::-webkit-progress-bar{
+        background-color: rgb(214, 212, 212);
+        height: 5px !important;
+        width: 70% !important;
+    }
+}
+@media only screen and (min-width:576px) {
+    @media only screen and (max-width:900px) {
+        .description{
+            padding-left:95px;
+        }
+
+    }
+}

@@ -1,0 +1,433 @@
+
+.landingPage{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #E5E5E5;
+
+}
+
+.landingPage main{
+    margin: 0;
+    padding: 0;
+}
+
+.landingPage button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
+.landingPage a{
+color: white;}
+.landingPage a:hover{
+    color: #FB3F5C;
+}
+.landingPage h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px!important;
+    line-height: 94px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.landingPage h2{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 94px;
+    color: rgba(255, 255, 255, 0.9)
+}
+.landingPage h3{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #04172A;
+}
+.landingPage .form-group>label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 20px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .landingPage .form-group>label{
+        padding-left: 30px;
+    }
+}
+.landingPage .form-group>input{
+ height: 48px;
+}
+.landingPage .form-control::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #BDBDBD;
+}
+.landingPage h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(4, 23, 42, 0.9);
+}
+/* Header content start  Here */
+.landingPage .jumbotron{
+    background: url(./img/landing.png) center  no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.landingPage .jumbotron h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+    line-height: 94px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.landingPage .header-text{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.landingPage .header-text>p{
+    font-size: 24px;
+    line-height: 31px;
+    color:  rgba(255, 255, 255, 0.9);
+}
+.landingPage .stock-hero img{
+    border-radius: 8px;
+    margin-top: 2em;
+    height: auto;
+    width: 100%;
+
+    }
+.landingPage .btn-form{
+    width: 100%;
+    height: 48px;
+    background: #FB3F5C;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: white;
+}
+/* header content finish here */
+/* ******************* MAIN************ */
+/* **Tranding section  start*/
+.landingPage .btn-view-all{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FB3F5C;
+    cursor: pointer;
+}
+.landingPage .trending-section{
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+    background: #E5E5E5;
+    width: 100%;
+    /* background-color: #E5E5E5; */
+}
+
+.landingPage .trending-section .trend-details{
+    display: none;
+}
+@media screen and (max-width:650px) {
+    .landingPage .trending-section{
+        margin-top: 50px!important;
+        margin-bottom: 100px!important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width:1200px){
+    .landingPage .stock-hero img{
+        height: 300px;
+        width: 400px;
+    }
+}
+.landingPage .card-img-top,.card-footer:last-child {
+    border-radius: unset;
+}
+.landingPage .card{
+    box-shadow: 0px 4px 24px rgba(177, 177, 177, 0.25);
+    border-radius: unset;
+}
+.landingPage .card-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.landingPage .progress{
+    height: 6px;
+}
+.landingPage #card-progress-bar{
+    background-color: #FB3F5C;
+    border-radius: 20px;
+}
+.landingPage .card-price{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(4, 23, 42, 0.9);
+}
+.landingPage .card-progress-num{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(4, 23, 42, 0.9);
+ }
+ .landingPage  .card-fonds{
+    font-size: 16px;
+    line-height: 20px;
+    color: #ABABAB;
+ }
+ .landingPage .card-footer {
+    height: 40px;
+    color: #FFFFFF;
+    background: rgba(4, 23, 42, 0.9)!important;
+    cursor: pointer;
+ }
+ .landingPage  .card-footer>span{
+    font-size: 16px;
+    line-height: 140.2%;
+    color: #FFFFFF;
+ }
+/*  Trending section Finish */
+/* About Us start Here */
+.landingPage .about-us-section>div{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+.landingPage .about-us-title{
+    line-height: 62px;
+}
+.landingPage .aboutus-img{
+    border-radius: 5px;
+}
+.landingPage .aboutus-text{
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+/****** About Us Finish Here ******/
+/* Featured compaign start Here */
+.compaign-section .container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/****** Featured compaign Finish Here ******/
+/* Testimonials-section  start Here */
+.landingPage .testimonials-section{
+    background: url(./img/test-back.png) center no-repeat;
+    background-size: cover!important;
+    min-height:  742px;
+    margin:0;
+    padding: 6rem 0;
+}
+
+.landingPage .testimonials-text>p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+.landingPage .testimonials-text::before{
+    content: url(./img/“\ \(2\).png);
+    position: absolute;
+    top: -20%;
+    left: -2%;
+}
+.landingPage .testimonials-text::after{
+    content: url(./img/“\ \(3\).png);
+    position: absolute;
+    right: -0;
+    bottom: 0;
+}   
+/****** Testimonials-section Finish Here ******/
+/* Foooter start here */
+.landingPage .news-letter{
+    background: url(./img/subscribe.png) center  no-repeat;
+    background-size: cover;
+    min-height: 578px;
+}
+.landingPage .news-letter-text>p{
+    font-size: 24px;
+    line-height: 35px;
+    color: white;
+    width: 75%;
+}
+.landingPage #subscribe-input{
+    width: 100%;
+    height: 80px;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    background: transparent;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    color: white;
+    font-size: 32px;
+    line-height: 42px
+}
+.landingPage #subscribe-input::placeholder{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.landingPage .subscribe-btn{
+    width: 100%;
+    height: 80px;
+    background: #FB3F5C;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: white;
+}
+.landingPage .page-footer{
+    background: #04172A;
+    color: white;
+}
+.landingPage .page-footer a{
+    font-size: 18px;
+    line-height: 24px;
+}
+/* **************** Media queries *************** */
+@media only screen and (max-width:650px){
+    .landingPage .jumbotron {
+        background: url(./img/landing.png) top  no-repeat;
+        background-size: cover;
+    }
+    .landingPage .testimonials-section{
+        background: url(./img/test-back2.png) center no-repeat;
+        background-size: cover;
+        min-height:  494px;
+    }
+    .landingPage .news-letter{
+        background: url(./img/subscribe.png) center  no-repeat;
+        background-size: cover;
+        height: 403px;
+    }
+    .landingPage .testimonials-text>p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9)
+    }
+    .landingPage .testimonials-text::before {
+        content: unset;
+    }
+    .landingPage .testimonials-text::after{
+        content: url(./img/“.png);
+        right: 7%;
+    }
+    .landingPage  h3{
+        font-size: 24px;
+        line-height: 31px !important;
+        color: #04172A;
+    }
+
+    .landingPage h1{
+        font-size: 32px!important;
+        line-height: 40px!important;
+        text-align: center;
+    }
+    .landingPage h2{
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .landingPage  h5{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .landingPage .header-text>p{
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .landingPage .header-text>h1{
+        margin-top: 80px;
+    }
+    .landingPage .btn-view-all{
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .landingPage .compaign-section{
+        padding: 1rem 0;
+    }
+    .landingPage  .card-subtitle{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .landingPage  .news-letter-text>p{
+        font-size: 12px;
+        line-height: 147.7%;
+        text-align: center;
+        width: 90%;
+    }
+}
+@media only screen and (max-width:770px){
+    .landingPage .subscribe-btn , #subscribe-input {
+        height: 48px!important;
+        font-weight: 500;
+        font-size: 16px!important;
+        line-height: 21px;
+    }
+    .landingPage   #subscribe-input::placeholder{
+        font-size: 12px;
+        line-height: 16px;
+    }
+ }
+ @media only screen and (max-width:1000px){
+    .landingPage  hr{
+        border: 1px solid #FFFFFF;
+    }
+} 
+@media only screen and (max-width:500px){
+    .landingPage .stock-hero img{
+        border-radius: 8px;
+        height: 200px;
+        width: 100%;
+        }
+    .landingPage .aboutus-text{
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width: 303px){
+    .landingPage .header-text, .landingPage .jumbotron>div{
+    margin-top: 0 !important;   
+ }
+ .landingPage .aboutus-text{
+    font-size: 19px;
+    line-height: 30px;
+}
+} 
+@media only screen and (max-width: 269px){
+    .landingPage h1{
+        font-size: 26px;        
+    }
+} 
+@media only screen and (max-width: 254px){
+    .landingPage  h1{
+        font-size: 22px;        
+    }
+    .landingPage  .header-text>p{
+        font-size: 10px ;
+    }
+    .landingPage .btn-form{
+        font-size: 18px;
+    }
+}

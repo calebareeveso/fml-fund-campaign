@@ -1,0 +1,5 @@
+.loading {display:block;width: 100% !important;height: 100% !important;position: relative !important;margin:0 auto !important;padding: 0 !important;display:flex !important;align-items: center !important;justify-content: center !important;}
+.loading span {left:0;background:white;width:20px;height:20px;border-radius:50%;animation: loading 1s infinite linear;margin:0;box-sizing: border-box;}
+.loading span:nth-of-type(2){left:23px;animation-delay: .2s;}
+.loading span:last-of-type {left:46px;animation-delay: .2s;}
+@keyframes loading {0%,100% {transform:scale(1)}50% {transform:scale(0.5)}}

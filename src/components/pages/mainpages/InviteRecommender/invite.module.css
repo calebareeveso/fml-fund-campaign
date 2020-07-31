@@ -1,0 +1,147 @@
+.hrStyle{
+    border-radius: 8px;
+    border: 5px solid #C4C4C4;
+    width: 11%;
+    margin-left: 1rem;
+}
+
+.hrStyle1{
+    border-radius: 8px;
+    border: 5px solid #FB3F5C !important;
+    width: 11%;
+    margin-left: 1rem;
+}
+
+.centerForm{
+    display: grid;
+    place-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.formStyle{
+    background: #FFFFFF;
+    box-shadow: 0px 2.76726px 2.21381px rgba(153, 153, 153, 0.0196802), 0px 6.6501px 5.32008px rgba(153, 153, 153, 0.0282725), 0px 12.5216px 10.0172px rgba(153, 153, 153, 0.035), 0px 22.3363px 17.869px rgba(153, 153, 153, 0.0417275), 0px 41.7776px 33.4221px rgba(153, 153, 153, 0.0503198), 0px 100px 80px rgba(153, 153, 153, 0.07);
+    border-radius: 11px;
+    padding: 3rem;
+    min-height: 100%;
+
+}
+.breadCrumbStyle{
+    font-size: 12px !important;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #747474;
+}
+
+.mainSubColor{
+    font-size: 16px;
+    line-height: 28px;
+
+
+    color: #999898;
+}
+.mainTitColor{
+    font-size: 40px;
+    line-height: 52px;
+
+
+    color: #04172A;
+}
+
+.inputControl{
+    display: block;
+    width: 100%;
+    /* height: calc(1.5em + 0.75rem + 2px); */
+    height: calc(1.5em + 0.75rem + 16px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.800236px solid rgba(4, 23, 42, 0.7);
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s
+}
+
+.inviteTitle{
+    
+    color: #FB3F5C !important;
+    font-size: 32px;
+    line-height: 42px
+}
+
+.inviteSubTitle{
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.btnStyle{
+    font-size: 24px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+}
+
+.mobMainTitColor{
+    display: none;
+}
+
+.inStyle{
+    font-size: 19.2057px;
+    padding: 0.65rem;
+}
+
+.faSize{
+    font-size: 22px !important;
+}
+
+@media (max-width: 640px){
+    .mainTitColor, .mainSubColor{
+        display: none;
+    }
+
+    .mobMainTitColor{
+        display: block;
+    }
+
+    .formStyle{
+        padding: 1rem;
+    }
+
+    .hrStyle{
+        border: 2px solid #C4C4C4;
+        border-radius: 2px;
+        width: 20%;
+    }
+    .hrStyle1{
+        border: 2px solid #FB3F5C !important;
+        border-radius: 2px;
+        width: 20%;
+    }
+
+    .inviteTitle{
+        font-size: 20px;
+    }
+
+    .inviteSubTitle{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .Size{
+        font-size: 12px;
+    }
+    .btnStyle, .inStyle{
+        font-size: 16px;
+    }
+    .faSize{
+        font-size: 12px !important;
+    }
+
+}

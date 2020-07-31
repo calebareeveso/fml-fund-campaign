@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FUND MY LAPTOP | HNG </title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap-css/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/css/custom-css/header.css">
+    <link rel="stylesheet" href="../../assets/css/custom-css/footer.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+               <img src="../../assets/images/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <!--just add these span here-->
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <!--/end span-->
+            </button>
+        
+            <div class="collapse navbar-collapse text-center" id="exCollapsingNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Fundraise for
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+              
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Invest <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="btn btn-outline-fml-secondary" href="#">Sign in <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="btn btn-fml-secondary" href="#">Start a campaign <span class="sr-only">(current)</span></a>
+                </li>
+             
+            </ul>
+         
+            </div>
+        </div>
+      </nav>
+    
+
+      <footer class="bg-fml-primary ">
+          <div class="container-fluid">
+              <div class="row justify-content-between m-0  ">
+                 <div class="mobile-center">
+                     <ul class="list-unstyled">
+                         <li class="nav-item">
+                            <a class="navbar-brand" href="#">
+                                <img src="../../assets/images/footer-logo.svg" alt="">
+                             </a>
+                         </li>
+
+                         <li class="nav-item"><a href=""> Address </a></li>
+                         <li class="nav-item"><a href=""> Email Address</a></li>
+                         <li class="nav-item"><a href=""> Phone </a></li>
+                         <ul class="row list-unstyled m-0">
+                            <li class="nav-item"><a href="">  <img src="../../assets/images/Vector (2).svg" alt=""> </a></li> 
+                            <li class="nav-item"><a href="">  <img src="../../assets/images/Vector (3).svg" alt=""> </a></li> 
+                            <li class="nav-item"><a href="">  <img src="../../assets/images/Vector (4).svg" alt=""> </a></li> 
+                           
+                         </ul>
+                     </ul>
+                 </div>
+
+                 <div class="mobile-center">
+                    <ul class="list-unstyled">
+                        <li class="nav-item">
+                           <a class="navbar-brand" href="#">
+                              RESOURCES
+                            </a>
+                        </li>
+
+                        <li class="nav-item"><a href=""> Why choose FundMyLaptop </a></li>
+                        <li class="nav-item"><a href=""> How P2P Lending works</a></li>
+                        <li class="nav-item"><a href=""> About FundMyLaptop </a></li>
+                        <li class="nav-item"><a href=""> Contact Us </a></li>
+                    </ul>
+                 </div>
+              </div>
+
+              <hr class="only-mobile">
+              <div class="row justify-content-between m-0 mob-class">
+                <p> 2020 &copy; Copyrights All rights reserved </p>
+                <ul class="list-unstyled d-md-inline-flex">
+                    <li class="foot-item"><a href=""> FAQ</a></li>
+                    <li class="foot-item"><a href=""> Privacy Policy</a></li>
+                    <li class="foot-item"><a href=""> Terms and Conditions</a></li>
+                </ul>
+              </div>
+          </div>
+      </footer>
+      
+    <script src="../../assets/js/bootstrap-js/jquery.js"></script>      
+    <script src="../../assets/js/bootstrap-js/popper.js"></script>
+    <script src="../../assets/js/bootstrap-js/bootstrap.js"></script>
+    <script>
+        $(function() {
+            //toggle class open on button
+            $('#exCollapsingNavbar').on('hide.bs.collapse', function () {
+                $('.navbar-toggler').removeClass('open');
+            })
+            $('#exCollapsingNavbar').on('show.bs.collapse', function () {
+                $('.navbar-toggler').addClass('open');
+            })
+        });
+    </script>
+
+</body>
+</html>

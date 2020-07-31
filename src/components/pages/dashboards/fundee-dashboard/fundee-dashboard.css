@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+:root {
+  --fml-primary: #04172a;
+  --fml-secondary: #fb3f5c;
+  --fml-accent: #6c63ff;
+}
+
+/* 
+* Main styles 
+*/
+
+
+.fundee-dashboard-wrapper{
+  background: #E5E5E5;
+}
+.fundee-dashboard__title-container{
+  margin-top: 5rem;
+}
+.fundee-dashboard__title{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px !important;
+  color: #04172A;
+}
+.fundee-dashboard__title span{
+  color: #FB3F5C;
+}
+@media (max-width: 400px) {
+  .fundee-dashboard__title-container{
+    margin-top: 3rem;
+  }
+  .fundee-dashboard__title{
+    font-size:  28px ;
+
+  }
+}
+/* body main section styles */
+
+.payment-history-intro, .account-overview-intro{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #04172A
+}
+.account-overview-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media (max-width: 991.98px) {
+  .account-overview-grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .account-overview-grid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .fundee-dashboard__title{
+    font-size: 32px;
+    line-height: 45px !important;
+
+  }
+}
+
+@media (max-width: 575.98px) {
+  .account-overview-grid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .fundee-dashboard__title{
+    font-size: 32px;
+    line-height: 45px !important;
+
+  }
+}
+
+
+.account-detail {
+  padding: 1.2rem 1.5rem .7rem 1.5rem;
+  background: #FFFFFF;
+  box-shadow: 2px 8px 20px rgba(251, 63, 92, 0.1);
+
+  border-radius: 5px;
+}
+
+.account-detail h2 {
+  margin-bottom: 0;
+  font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #04172A;
+    margin-top: .6rem ;
+}
+
+@media (max-width: 1200px) {
+  .account-detail h2 {
+    font-size: calc(1.325rem + 0.9vw) ;
+  }
+}
+
+.account-detail small {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(4, 23, 42, 0.7);
+}
+
+.account-detail .right{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #04172A;
+}
+.account-detail .left {
+  font-size: 24px;
+  font-weight: normal;
+  
+}
+
+@media (max-width: 767.98px) {
+  .account-detail {
+    padding: 1.2rem 1rem .7rem 1rem;
+
+  }
+  .account-detail small,
+  .account-detail .right,
+  .account-detail .left {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .account-detail small,
+  .account-detail .right,
+  .account-detail .left {
+    font-size: 16px;
+  }
+}
+.table-container{
+  background-color: #FFFFFF;
+  box-shadow: 2px 8px 20px rgba(251, 63, 92, 0.1);
+  border-radius: 5px;
+
+}
+.investee-payment-history {
+  padding-bottom: 6rem ;
+}
+.investee-payment-history table thead {
+  white-space: nowrap;
+  
+}
+.investee-payment-history table thead tr td{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (max-width:500px){
+  .investee-payment-history table thead tr td{
+
+    font-size: 12px;
+  }
+}
+
+.investee-payment-history table tbody {
+  font-size: 1.25rem;
+}
+
+.investee-payment-history table td {
+  vertical-align: middle;
+}
+
+.investee-payment-history table td .day {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+}
+.investee-payment-history table tbody tr td{
+  font-size: 16px;
+  line-height: 24px;
+  color: #04172A;
+  }
+.investee-payment-history table td .month {
+  font-size: 15px;
+  margin-top: -0.2em;
+}
+
+@media (max-width: 767.98px) {
+  .investee-payment-history table thead {
+    font-size: 14px;
+  }
+  .investee-payment-history table tbody {
+    font-size: 1rem;
+  }
+  .investee-payment-history table .day {
+    font-size: 24px;
+  }
+  .investee-payment-history table .month {
+    font-size: 16px;
+  }
+}
